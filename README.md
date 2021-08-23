@@ -2,7 +2,7 @@
 # Act 1.1 - Funciones Iterativas, Recursivas y su análisis de Complejidad
 
 ## <span style="color: rgb(26, 99, 169);">¿Qué tengo que hacer?</span>
-Accede a la siguiente liga: [Act 1.1](https://classroom.github.com/a/gKOQBrlv) y acepta la tarea. Esto creará tu repositorio de trabajo. En él, encontrarás el archivo "activity.h". En este archivo deberás desarrollar la implementación del problema presentado en esta actividad.  En la parte superior del archivo coloca, en comentarios, tus datos. Por ejemplo:
+Después de acpetar la actividad, se generará tu repositoria en el cual encontrarás el archivo "activity.h". En este archivo deberás desarrollar la implementación del problema presentado en esta actividad.  En la parte superior del archivo coloca, en comentarios, tus datos. Por ejemplo:
 ```
 // =========================================================
 // File: activity.h
@@ -100,15 +100,15 @@ Calcule la sumatoria de 1 hasta n con un metodo matemático directo.
 </tbody>
 </table>
 
-<br>Todas las funcionalidades deberán de estar correctamente alineadas y documentadas.&nbsp; Recuerda que todas las funcionalidades deberán pasar exitosamente todas las pruebas. Como parte de la documentación deberá incluirse la complejidad de cada una de ellas.
+<br>Todas las funcionalidades deberán de estar correctamente alineadas y documentadas.&nbsp; Recuerda que todas las funcionalidades deberán pasar exitosamente todas las pruebas. Como parte de la documentación deberá incluirse la complejidad de cada una de ellas, considera agregar los comentarios necesarios para justificar tu respuesta.
 
 Para probar tu implementación, ejecuta el comando:
 ```
-make
+make test
 ```
 Este comando compilará tu código y generará una serie de archivos de pruebas llamados "runTest#", donde # será un número de prueba. Para ejecutar prueba, solo deberás ejecutar el archivos correcto. Por ejemplo, si quiere revisar si mi código cumple con la prueba número 3, deberías ejecutar:
 ```
-./runTest3
+./runTest1
 ```
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
