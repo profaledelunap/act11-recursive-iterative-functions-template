@@ -1,9 +1,12 @@
-all: clean runTest1
+all: clean test
 
-runTest1:
-	g++ -std=c++11 test1.cpp -o runTest1
+test.out:
+	g++ -std=c++11 test1.cpp -o test
+
+test: test.out
+	./test.out
 
 clean:
-ifneq ("$(wildcard ./runTest1)","")
-	rm runTest1
-endif
+	ifneq ("$(wildcard ./test)","")
+	rm test
+	endif
