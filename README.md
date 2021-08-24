@@ -104,11 +104,11 @@ Calcule la sumatoria de 1 hasta n con un metodo matemático directo.
 
 Para probar tu implementación, ejecuta el comando:
 ```
-make test
+make
 ```
 Este comando compilará tu código y generará una serie de archivos de pruebas llamados "runTest#", donde # será un número de prueba. Para ejecutar prueba, solo deberás ejecutar el archivos correcto. Por ejemplo, si quiere revisar si mi código cumple con la prueba número 3, deberías ejecutar:
 ```
-./runTest1
+./test
 ```
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
